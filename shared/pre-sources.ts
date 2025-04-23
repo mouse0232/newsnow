@@ -357,6 +357,28 @@ export const originSources = {
     type: "hottest",
     home: "https://www.nowcoder.com",
   },
+  "sspai": {
+    name: "少数派",
+    column: "tech",
+    color: "red",
+    type: "hottest",
+    home: "https://sspai.com",
+  },
+  "juejin": {
+    name: "稀土掘金",
+    column: "tech",
+    color: "blue",
+    type: "hottest",
+    home: "https://juejin.cn",
+  },
+  "ifeng": {
+    name: "凤凰网",
+    column: "china",
+    color: "red",
+    type: "hottest",
+    title: "热点资讯",
+    home: "https://www.ifeng.com",
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {
